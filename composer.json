@@ -1,0 +1,21 @@
+{
+    "name": "viktor-vladimirov/composer-example-package",
+    "description": "examle project",
+    "type": "libray",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Viktor Vladimirov",
+            "email": "viktorvladimirovby1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "viktorvladimirov\\parser\\": "src/"
+        }
+    }, 
+    "minimum-stability": "stable"
+}
