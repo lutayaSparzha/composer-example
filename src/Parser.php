@@ -18,6 +18,8 @@ class Parser implements ParserInterface {
             return ['Invalid url'];
         }
         
+        //regular expression
+        
         preg_match_all('/<' . $tag . '.*?>(.*?)<\/' . $tag . '>/s', $htmlPage, $strings);
         
         if(empty($strings[1])){
