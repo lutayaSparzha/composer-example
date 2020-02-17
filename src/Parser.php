@@ -9,7 +9,7 @@ namespace viktorvladimirov\parser;
 
 class Parser implements ParserInterface {
 
-    public function process(string $url, string $tag): array {
+    public function process(string $tag, string $url): array {
         
         $htmlPage = file_get_contents($url);
         
